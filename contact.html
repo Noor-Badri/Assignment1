@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="header-heading" class="headings">Al Khawarizmi</h1>
+
+        </header>
+
+        <nav>
+            <ul>
+                <li id="home-link">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li id="contact-link">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <heading>
+                <h3>CONTACT</h3>
+            </heading>
+            <form>
+                <br><label for="name">Name</label>
+                <br><input type="text" id="name" name="formInput" autofocus value="Noor">
+                <br><br><label for="dOb">DATE OF BIRTH</label>
+                <br><input type="date" id="dOb" name="form" placeholder="yyy-mm-dd" value="number">
+                <br><br><label for="color">FAVOURITE COLOR</label>
+                <br><input type="color" id="color" name="form" value="red">
+                <br><br><label for="email">EMAIL</label>
+                <br><input type="email" id="email" name="form">
+                <br><br><label for="number">PHONE</label>
+                <br><input type="text" id="number" name="form" required>
+                <br><br><label for="select">PREFFERED METHOD OF CONTACT</label>
+                <br><select id="select" name="option">
+                    <option> select </option>
+                    <option value="0" selected> Phone </option>
+                    <option value="1"> Email </option>
+                    <option value="2"> Mail </option>
+                </select>
+                <br><br><label for="msg">MESSAGE</label>
+                <br><textarea id="msg" rows="5"></textarea>
+                <br><br>
+                <label for="robot">I AM NOT A ROBOT</label>
+                <input type="checkbox" id="robot" name="form">
+                <br><br><input type="submit" value="submit" id="submit" name="form">
+            </form>
+        </main>
+
+        <aside>
+            <h3>FAQS</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Invention</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Algebra</td>
+                        <td>820 CE</td>
+                    </tr>
+                    <tr>
+                        <td>Algorithm</td>
+                        <td>820 CE</td>
+                    </tr>
+                    <tr>
+                        <td>Decimal System</td>
+                        <td>820 CE</td>
+                    </tr>
+                    <tr>
+                        <td>Concept of algorithm</td>
+                        <td>820 CE</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Resources</h3>
+            <a href="https://www.britannica.com/biography/al-Khwarizmi">Britannica</a>
+            <br><a href="https://en.wikipedia.org/wiki/Al-Khwarizmi">wikipedia</a>
+            <br><a href="https://www.youtube.com/watch?v=oyhOlGsDXP8&t=14s">YouTube</a>
+        </aside>
+
+
+        <footer>
+            <p> &copy; <i> Noor Badri 2024 </i> </p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
